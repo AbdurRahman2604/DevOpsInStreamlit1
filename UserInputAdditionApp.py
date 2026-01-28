@@ -4,10 +4,10 @@ a = st.number_input("Enter value for a ")
 b = st.number_input("Enter value for b")
 c = st.number_input("Enter value for c")
 
-d = st.text_input("Enter value for c (string)")
+d = st.text_input("Enter value for d (string)")
 # Addition
-result = a + b + c
+result = a * b + c
 # Streamlit app
-st.title("Addition App")
-st.write(c)
+st.title("Multi + Addition App")
+st.write(d)
 st.write(f"The sum of {a}, {b} ,{c} is: {result}")
